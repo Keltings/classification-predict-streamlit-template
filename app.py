@@ -172,18 +172,6 @@ def main():
             st.plotly_chart(fig)
             
         
-
-        
-
-        with model_lr or model_mnb:
-            options = ['Naive Bayes', 'Logistic Regression']
-            model_choice = st.selectbox('Choose Model', options)
-            if model_choice == 'Naive Bayes':
-                col, cols = st.columns(2)
-                col.subheader('Multimorminal_NB Accurac:')
-                #col.write(mnb_score)
-
-        
     
 
 if __name__ == '__main__':
