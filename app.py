@@ -54,10 +54,10 @@ sentiment_name_dict = {-1 : 'Anti', 0 : 'Neutral', 1 : 'Pro', 2 : 'News'}
 
 def main():
     st.title('Sentiment classifier app')
-    menu =['About','Visualization','Text Sentiment Predictions']
+    menu =['About','Visualization','Predictions']
     choice = st.sidebar.selectbox('Menu', menu)
 
-    if choice == 'Home':
+    if choice == 'Predictions':
         st.subheader('Sentiment Text Prediction')
         st.sidebar.subheader('Tweets')
 	    
